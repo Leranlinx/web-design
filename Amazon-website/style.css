@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/***000**/
+.navbar{
+    background-color: rgb(9, 20, 25);
+    width: auto;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("logo1.png");
+    background-size: cover;
+    height: 58px;
+    width:100px ;
+}
+.border {
+    border: 2px solid transparent;
+
+}
+
+.border:hover{
+    border: 1.5px rgb(255, 255, 255) solid;    
+}
+
+/***###  111**/
+.add-first {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add-second {
+
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display:flex;
+    color: #ffffff;
+    margin-left: 5px;
+
+}
+
+/** 222 **/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+.search-select {
+    background: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-input {
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 151, 40);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+/* /**$$***/
+span{
+    font-size: 0.7rem;
+}
+.nav-sec {
+    font-size: .85rem;
+}
+
+.nav-cart i {
+    font-size: 32px;
+}
+
+.nav-cart {
+    font-size: 14px;
+}
+
+
+/**555**/
+
+.panel {
+    height: 40px;
+    background: #222f32;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+
+}
+
+/**hero secto **/
+
+.hero-section {
+    background-image: url(hero_image.jpg);
+    height: 370px;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.hero-meg{
+    background-color: #fff;
+    color: #222f32;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+/** shope section **/
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6; ;
+
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+}
+
+.box-img{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin: left 1rem;
+    margin-right: 1rem;
+}
+
