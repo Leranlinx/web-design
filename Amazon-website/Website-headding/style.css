@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    background:linear-gradient(45deg,pink,#175491);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 10%;
+    height: auto;
+}
+.logo h2 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: lightgoldenrodyellow;
+}
+.menu ul {
+
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 13px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 18px;
+    right: 20px;
+    transition: 1s;
+    text-transform: uppercase;
+}
+.menu ul li a:hover {
+    color: white;
+    font-size: 27px;
+}
