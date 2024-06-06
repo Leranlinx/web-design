@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: right 15px; 
+    transition: all 0.4s;
+    
+}
+
+.nav-item a:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 100px;
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+.search:focus{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid rgb(20, 219, 20);
+    border-right: none;
+
+}
+
+.btn1 {
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 0 20px 20px 0 ;
+    transform: all 0.4s ;
+}
+
+.btn:hover {
+    background-color:rgb(13, 172, 13);
+}
+
+.main {
+    background: url(/imgs/m1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+.mbtn1 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border:none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover {
+    background-color: rgb(13, 172, 13);
+}
+.mbtn2 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border:1px solid (20, 219, 20);
+    color:rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border: none;
+}
+.line {
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 219, 20);
+    display: inline-block;
+
+}
+
+.about {
+    background: url(/imgs/abut.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    /* padding-top: 100px; */
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+
+.welcome {
+    background: rgb(20, 219, 20);
+}
+.line2 {
+    height: 6px;
+    width: 30%;
+    background: white;
+    display: inline-block;
+}
+
+.welcome h1 {
+    font-size:3rem ;
+    font-weight: bold;
+}
+
+
+.product h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+.star {
+    text-align: end;
+    color: gold;
+}
+
+.product .card-body {
+    border: 1px solid gray;
+}
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1 {
+    color: rgb(168, 162, 162);
+}
+
+.btnc {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(13, 172, 13);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+
+}
+
+.btnc:hover {
+    outline: none;
+    border: 1px solid rgb(13, 172, 13);
+    color: rgb(13, 172, 13);
+    background: transparent;
+    border-radius: 50px;
+    
+}
+
+.discount {
+    background: rgb(20, 219, 20);
+}
+.discount h1 {
+    color: white;
+}
+
+.store h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+
+.store i {
+    font-size: 60px;
+}
+
+.store .card {
+    border-radius: 7;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.store .card:hover {
+    background: rgb(20, 219, 20);
+    color: white;
+}
+.store p:hover {
+    color: #ffffff;
+}
+
+.seller h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.fa-star {
+    color: gold;
+}
+#footer {
+    background: rgb(20, 219, 20);
+    color: #fff;
+}
+
+.footer img {
+    width:100% ;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
